@@ -1,4 +1,4 @@
 import easyquotation
-quotation = easyquotation.use("timekline")
+quotation = easyquotation.use('sina')
 data = quotation.market_snapshot(prefix=True) 
 print(data)
